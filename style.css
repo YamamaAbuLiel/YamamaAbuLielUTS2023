@@ -1,0 +1,58 @@
+.images-block{
+    display: block;
+    padding: 2px;
+}
+
+#Name-info {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    
+
+
+}
+
+#Name-info td ,#Name-info th{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+#Contacts-infor{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+#Contacts-infor td, #Contacts-infor th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50px;
+    
+
+}
+
+#hight , #width{
+    text-align: center;
+}
+
+#Males, #Females{
+    font-weight: bold;
+}
+
+div{
+    background-color: green;
+    color: white;
+    padding:20px;
+}
+
+#No{
+    border: 0px;
+    border-right-style:hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+
+}
