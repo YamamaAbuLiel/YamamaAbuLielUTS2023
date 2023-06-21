@@ -1,0 +1,31 @@
+First i want to thank you for the orginaized work, it shows how much you cares and want to learn.
+
+Task 1 :
+the rectangle bellow ISCOSOFT was supposed to be title for the text, only showing when hover over the text,
+however you did much harder job.
+Excellent.
+
+Task 2 :
+My only note is Tables and last Div are overstreched, 
+you had the right idea but the wrong value, change width to 50% to fix that
+Otherwise Great Work
+
+Task 3 : 
+Turning Pink when mobile didnt work on my device.
+after reviewing the code,
+@media tag can be standalone,
+so you can have it like this
+ @media screen and (max-width:700px) {
+            body{
+                  background-color: pink;
+            }
+     }
+also you need this line
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Everything Else Perfect.
+
+Task 4 :
+Perfect
+Nicly Done
+Responsive not working because of the missing <meta> tag i mentioned in the previous task
+Good job.
