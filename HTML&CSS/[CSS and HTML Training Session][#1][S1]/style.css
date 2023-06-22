@@ -1,0 +1,26 @@
+#First-Par_Titel{
+    color: #0107ff;
+    font-weight:bolder;
+
+    
+}
+
+#Isra_Company{
+    text-decoration:underline dotted;
+    margin-bottom: -1px;
+}
+
+button{
+    background-color: white;
+    font-size: 11px;
+    border-color: rgb(196, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 58px;
+    color:gray;
+    padding: 5px;
+}
+
+div{
+    font-style: italic;
+    font-weight: 500;
+}
