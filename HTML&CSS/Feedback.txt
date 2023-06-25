@@ -29,3 +29,21 @@ Perfect
 Nicly Done
 Responsive not working because of the missing <meta> tag i mentioned in the previous task
 Good job.
+
+Task 5 :
+Nice thinking with seperating the script
+the task required a photo intilized when loading the page,
+you can fix that buy multiple ways, one of them is making the following <body onload="WebSite(0)">
+this will call the function when page loads thus initilizing with image,
+you werent supposed to change the button label, we dont do that unless the functionalty changed
+i guess you understood the task wrong, dont worry not a big deal.
+Good Job.
+
+Task 6 : 
+you didnt send me an email that you have finished,
+but i saw it uploaded so i reviewed it
+PERFECT WORK
+you did such a hard and good work with the titles
+as only required was adding <img title="just this" >
+YOU DID IT AMAZINGLY
+Perfrect
