@@ -1,0 +1,74 @@
+.headcont, footer, a:active, a:hover {
+  background-color: skyblue;
+}
+
+.headcont {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.headcont img {
+  margin: 15px;
+  display: inline;
+  transition: 1s;
+}
+.headcont h2 {
+  display: inline;
+  font-weight: bold;
+  color: white;
+  margin: auto;
+}
+.headcont img:hover {
+  opacity: 0.5;
+}
+@media screen and (max-width: 700px) {
+  .headcont .he {
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+.row {
+  height: 450px;
+}
+.row .ColNav {
+  background-color: rgb(219, 218, 218);
+}
+.row .ColNav ul {
+  margin-top: 20px;
+}
+.row .ColNav li {
+  border: 2px solid skyblue;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  min-width: 150px;
+  background-color: white;
+  font-weight: 600;
+}
+.row .ColNav li a:link, .row .ColNav li a:visited {
+  text-decoration: none;
+  color: black;
+}
+.row .Info {
+  font-weight: 600;
+}
+.row .Info h4 {
+  margin-top: 30px;
+}
+
+footer {
+  height: 73px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=Style.css.map */
