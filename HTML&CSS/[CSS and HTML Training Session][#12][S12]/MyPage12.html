@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="math">
+        <label id="title" for="Titel">Calculate multiplication and division of two numbers</label>
+        <table>
+            <tr>
+                <th>First Number:</th>
+                <td> <input class="IN" type="number" id="First"> </td>
+            </tr>
+            <tr>
+                <th>Second Number:</th>
+                <td> <input class="IN" type="number" id="Second"> </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td> 
+                     <button class="but-math" onclick="Multiply()">Multiply</button>
+                     <button class="but-math" onclick="Divided()">Divide</button> 
+                </td>
+            </tr>
+            <tr>
+                <th>The resulte is :</th>
+                <td> <span id="math-res"></span></div> </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="heat">
+        <label  id="titel-heat"for="Titel">Convert temperatures to and from Celsius, Fahrenheit </label>
+        <table>
+            <tr>
+                <th>Celsius </th>
+                <td> <input class="IN" type="number" placeholder="°C" id="temp-in-C"> </td>
+            </tr>
+            <tr>
+                <th>Fahrenheit :</th>
+                <td> <input class="IN" type="number" placeholder="°F" id="temp-in-F"> </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td> <button id="convert-but" onclick="Convert()">Convert</button> </td>
+            </tr>
+            <tr>
+                <th>The resulte is :</th>
+                <td> <span id="temp-res"></span> </td>
+            </tr>
+        </table>
+    </div> 
+
+    <script src="Calculation.js"></script>
+</body>
+</html>

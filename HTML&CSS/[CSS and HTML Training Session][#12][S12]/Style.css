@@ -1,0 +1,23 @@
+ table, th, td {
+    border: 1px solid;
+    width:500px;
+  } 
+
+  .math #title,#titel-heat{
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+
+  .math,.heat{
+    margin:50px;
+  }
+
+  .IN{
+    width:97%;
+  }
+.but-math,#convert-but{
+    margin-left: 7px;
+    height: 25px;
+    font-weight: bold;
+}
