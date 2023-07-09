@@ -73,7 +73,7 @@ if(imageID===""){
 }
 
 try{
-    const res=await fetch('https://jsonplaceholder.typicode.com/photos/${imageID}')
+    const res=await fetch(`https://jsonplaceholder.typicode.com/photos/${imageID}`)
     if(!res.ok){
         throw new error ("Image Not Found");
     }
@@ -130,44 +130,5 @@ catch (error)
 
 
 
-    function GetImage() {
-    const imageIdInput = document.getElementById('getID');
-    const albumIdLabel = document.getElementById('getalbumID');
-    const imageResultLabel = document.getElementById('getResult');
-    const imageElement = document.getElementById('The-image');
-    const Tooltip=document.getElementById("tooltiptext");
-    
-  
-    const imageId = imageIdInput.value;
-    
-    if (imageId) {
-      fetch(`https://jsonplaceholder.typicode.com/photos/${imageId}`)
-        .then(response => response.json())
-        .then(imageInfo => {
-          albumIdLabel.textContent = imageInfo.albumId;
-          imageElement.src = imageInfo.url;
-          imageResultLabel.textContent = 'Image Found';
-          imageResultLabel.style.color="green";
-          Tooltip.textContent=imageInfo.title;
-
-          function showTooltip() {
-            Tooltip.style.visibility = 'visible';
-          }
-          
-          function hideTooltip() {
-            Tooltip.style.visibility = 'hidden';
-          }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            imageElement.src = "";
-            imageResultLabel.textContent = 'Image Not Found';
-           imageResultLabel.style.color="red";
-           });
-    }
-    else{
-        alert("There Is No ID !!")
-    }
-  }
   
    
