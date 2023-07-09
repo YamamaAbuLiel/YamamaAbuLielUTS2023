@@ -1,0 +1,15 @@
+Good evining Mr.Zaid 
+there was a minor problem i have faced when doing this assignment .
+the problem is when i enter invalid image id it give me image found 
+
+catch (error)
+{
+    document.getElementById('getResult').textContent="Image Not Found";
+    document.getElementById('getResult').style.color="red";
+
+}
+
+I have tride to fix it and each time i recive the same result .
+
+I need to know how to fix it .
+Thanks
