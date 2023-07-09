@@ -61,3 +61,31 @@ Task 10 :
 I guess you forgot to send me an email, so i reviewed it.
 PERFECT
 btw, nice touch linking actual company pages, some fine care of details, more than excellent work.
+
+Task 11 :
+Some notes about design, but neglactable, dont worry about it.
+Good Job
+
+Task 12 :
+Even though you didn't add alert for everything, after viewing the code
+i can see you understand well what you were doing, the only check i might add if no numbers are entered
+Excellent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
