@@ -71,6 +71,28 @@ Even though you didn't add alert for everything, after viewing the code
 i can see you understand well what you were doing, the only check i might add if no numbers are entered
 Excellent.
 
+Task 13 :
+No Comment, Perfect.
+
+Task 14 :
+No Comment, Perfect.
+
+Task 15 :
+Great Potenial, Excelenet.
+
+Task 16 :
+Although you didint make Dinnermite, Otaku Hub is a great way to show your skills, 
+Soon we will be going back to dinnermite, so we complete the site in react,
+Good Job.
+
+Task 17 :
+I Will NOT count this task,
+please redo it 
+all is requierd is one html file with cdns to make it react, 
+all of the information you need is in the w3schools attached to the tasks.
+honestly i dont understand what the .js file supposed to be doing,
+you are beter than this.
+
 
 
 
