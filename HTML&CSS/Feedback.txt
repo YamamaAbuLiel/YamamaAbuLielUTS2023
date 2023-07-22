@@ -86,12 +86,64 @@ Soon we will be going back to dinnermite, so we complete the site in react,
 Good Job.
 
 Task 17 :
-I Will NOT count this task,
-please redo it 
-all is requierd is one html file with cdns to make it react, 
-all of the information you need is in the w3schools attached to the tasks.
-honestly i dont understand what the .js file supposed to be doing,
-you are beter than this.
+Let me help you a bit with react.
+from the name, ReactJS
+java script is the base of this library,
+we use react to create single page applications.
+so the website we create only renders one page.
+and using js we create the page and all its content
+we can create a project and run it on local host,
+or we can insert cdns to the page
+cdns are links, avalible online to create almost everything
+in this page we needed to add these cdns, you added them
+now, because every thing is in js
+every page we want to create, is a class
+classes have constructers which will be our initilized varibles
+inside this constructer, we create this.state object.
+this object is the base of our work.
+everything that changes is the state of the page, when it changes, we update the state using setState()
+when the state changes, the page reloads whatever part its state changed
+which makes the page super fast.
+every js class have a render() function
+this function have return
+whatever you return will be displayed on the page
+html, pure text, or even components,
+components are other js classes
+so for your work just do the following
+ <script type="text/babel">
+
+        class MyComponent extends React.Component {
+            constructor(props) {
+    super(props);
+  }
+  render(){
+        return (
+            <div>
+                <h1>Isra Software & Computer Co.</h1>
+    <p>Isra Software and Computer Company was established in 1997 in Nablus as a specialized in the production of software at Palestine and Arab Countries.</p>
+    <p> Includes more than 50 employees distributed in the following in the main department (Research and Development , Training and Operation,Marketing and Sales , Finance, Audit and Quality).</p>
+    <p>In addition to the company's headquarters in the city of Nablus , The company's branch was opened in Ramallah in 2004 to serve and flow-up customers in the central and southern regions.</p>
+    {//insert the table here
+}
+            </div>
+        );
+      }
+    }
+      ReactDOM.render(<MyComponent />, document.getElementById('mydiv'))
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
