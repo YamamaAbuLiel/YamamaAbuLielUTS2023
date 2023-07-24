@@ -1,57 +1,17 @@
-import React, { useState } from 'react';
-import "./index.css"
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-import ReactDOM from 'react-dom';
-
-import ButtonPanel from './ButtonPanel';
-import Display from './Display';
-const math = require('mathjs');
-
-const App = () => {
-  const [displayValue, setDisplayValue] = useState('0');
- 
-
-  const clickHandler = (name) => {
-    setDisplayValue((prevValue) => prevValue + name);
-
-    const calculateResult = () => {
-      try {
-        
-        const result = math.evaluate(displayValue);
-        setDisplayValue(result.toString());
-      } catch (error) {
-        setDisplayValue('Error');
-      }
-    };
-    if (name === 'AC') {
-      setDisplayValue('');
-    }
-    if(name==="=")
-    {
-      calculateResult();
-  
-    }
-    
-
-   
-
-  };
-
-  return (
-    <div className="calculator">
-      <Display value={displayValue} />
-      <ButtonPanel clickHandler={clickHandler} />
-    </div>
-  );
-};
-
-export default App;
-
-
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
