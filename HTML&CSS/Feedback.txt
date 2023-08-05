@@ -4,11 +4,15 @@ Task 1 :
 the rectangle bellow ISCOSOFT was supposed to be title for the text, only showing when hover over the text,
 however you did much harder job.
 Excellent.
+4/4
+
+
 
 Task 2 :
 My only note is Tables and last Div are overstreched, 
 you had the right idea but the wrong value, change width to 50% to fix that
 Otherwise Great Work
+3/4
 
 Task 3 : 
 Turning Pink when mobile didnt work on my device.
@@ -23,12 +27,14 @@ so you can have it like this
 also you need this line
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 Everything Else Perfect.
+3/4
 
 Task 4 :
 Perfect
 Nicly Done
 Responsive not working because of the missing <meta> tag i mentioned in the previous task
 Good job.
+4/4
 
 Task 5 :
 Nice thinking with seperating the script
@@ -38,6 +44,7 @@ this will call the function when page loads thus initilizing with image,
 you werent supposed to change the button label, we dont do that unless the functionalty changed
 i guess you understood the task wrong, dont worry not a big deal.
 Good Job.
+3/4
 
 Task 6 : 
 you didnt send me an email that you have finished,
@@ -47,43 +54,54 @@ you did such a hard and good work with the titles
 as only required was adding <img title="just this" >
 YOU DID IT AMAZINGLY
 Perfrect
+5/4
 
 Task 7 : 
 No Comment, Nicely Done, Excellent.
+4/4
 
 Task 8 : 
 No Comment, Perfect.
+4/4
 
 Task 9 : 
 As Task 7, MORE THAN PERFECT.
+4/4
 
 Task 10 :
 I guess you forgot to send me an email, so i reviewed it.
 PERFECT
 btw, nice touch linking actual company pages, some fine care of details, more than excellent work.
+5/4
 
 Task 11 :
 Some notes about design, but neglactable, dont worry about it.
 Good Job
+4/4
 
 Task 12 :
 Even though you didn't add alert for everything, after viewing the code
 i can see you understand well what you were doing, the only check i might add if no numbers are entered
 Excellent.
+3/4
 
 Task 13 :
 No Comment, Perfect.
+4/4
 
 Task 14 :
 No Comment, Perfect.
+4/4
 
 Task 15 :
 Great Potenial, Excelenet.
+4/4
 
 Task 16 :
 Although you didint make Dinnermite, Otaku Hub is a great way to show your skills, 
 Soon we will be going back to dinnermite, so we complete the site in react,
 Good Job.
+4/4
 
 Task 17 :
 Let me help you a bit with react.
@@ -133,42 +151,52 @@ so for your work just do the following
 
     </script>
 
+2/4
 
 Task 18 :
 on the design side, its perfect.
 on the function side, you forgot to add app.js, which seems to contain the handler
 so i cant test the functionlty you created.
 Good Job on the design.
+3/4
 
 Task 19 :
 make sure to not submit files with errors ( export at Uncontrolled )
 Perfect.
+4/4
 
 Task 20 :
 No Comment, Perfect.
+4/4
 
 Task 21 :
 No Comment, Perfect.
+4/4
 
 Task 22 :
 No Comment, Perfect.
+4/4
 
 Task 23 :
 Good job with color valid invalid,
 MORE THAN PERFECT.
+5/4
 
 Task 24 :
 Forgot to fix the age function.
 Good.
+4/4
 
 Task 25 :
 No Comment, Perfect.
+4/4
 
 I Have finished giving feedback for all your tasks
 your performance was great,
-soon i will add your mark
 
 
+96/100
+19/20
 
 
 
